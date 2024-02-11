@@ -1,0 +1,61 @@
+footer deneme kod;
+
+css{
+    .footer1{
+    display: flex; /* kendi yerinde durmasını sağlar */
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 3rem;
+    background-color: rgb(121, 121, 121); 
+    cursor: pointer;
+    font-size: 20px; 
+  }
+  .footer1 .fonts .homename{
+    font-size: 55px;
+    font-weight: 800;
+  }
+  .footer1 .fonts .pp{
+    color: black;
+    
+  }
+
+  .homesocial{
+    justify-content: center;
+  }
+
+  .homesocial .socialmedia{
+    transition: .5s;
+  }
+  
+  .socialmedia:hover{
+    transform: scale(.5s);
+    font-size: 40px;
+  }
+}
+
+html{
+    <div class="footer1">
+      <div class="fonts">
+        <p class="homename">LOGO NAME</p>
+        <p class="information">Copyright © 2022 logo name. All rights reserved.</p>
+        <a class="pp" href="/privacy"> <br> Privacy Policy <br> </a>
+        <a href="#">  <br></a>
+      </div>
+      <div class="homesocial">
+        <a class="socialmedia" target="_blank" href="">
+            <img src="./src/svgs/linkledin.svg" class="social" width="38px">
+        </a>
+        <a class="socialmedia" target="_blank" href="">
+            <img src="./src/svgs/instagram.svg" class="social" width="38px">
+        </a>
+        <a class="socialmedia" target="_blank" href="">
+            <img src="./src/svgs/twitter.svg" class="social" width="38px">
+        </a>
+        <a class="socialmedia" target="_blank" href="">
+            <img src="./src/svgs/youtube.svg" class="social" width="38px">
+        </a>
+      </div>
+    </div>
+}
